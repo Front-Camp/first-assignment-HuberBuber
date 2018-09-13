@@ -12,6 +12,13 @@
  */
 const sumElements = arr => {
   /* your logic here...*/
+  (function(arr){
+	sumElements = 0;
+	for(var i = 0; i < arr.length; i++){
+		sumElements += arr[i];
+    }
+	return sumElements;
+});
 };
 
 export default sumElements;
